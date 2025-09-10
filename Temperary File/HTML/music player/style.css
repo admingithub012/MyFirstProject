@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #111;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.player-container {
+  background: #222;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+}
+
+.player-container h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #0ff;
+}
+
+iframe {
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.song-name {
+  font-size: 16px;
+  color: #ccc;
+}
